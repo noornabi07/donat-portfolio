@@ -5,7 +5,18 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* optional css */
-
+.mrtop{
+    margin-top: 100px;
+}
+.same-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .same-btn{
     background: #FF5959;
     color: #fff;
@@ -85,4 +96,48 @@
 .banner-content p {
     color: #fff;
     font-size: 20px;
+}
+
+/* Donate today section */
+.donate-today-section{
+    text-align: center;
+}
+.donate-today-section h2{
+    margin-bottom: 20px;
+}
+.donate-today-section p {
+    font-size: 20px;
+    width: 662px;
+    margin: 0 auto;
+    color: gray;
+    margin-bottom: 20px;
+}
+.donate-today-section h6 {
+    font-size: 15px;
+    color: grey;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.donate-blog{
+    background: #FAFAFA;
+    padding: 30px;
+    border-radius: 5px;
+    color: grey;
+}
+.donate-blog:hover{
+    cursor: pointer;
+    background-color: #FF5959;
+    color: #fff;
+    transition: 0.5s;
+}
+.donate-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.donate-blog h2{
+    font-size: 35px;
+    font-weight: 700;
+
 }
