@@ -12,9 +12,10 @@
     font-size: 50px;
     font-weight: 700;
     color: #000;
+    text-align: center;
 }
 main{
-    max-width: 1140px;
+    max-width: 1124px;
     margin: 0 auto;
 }
 .same-btn{
@@ -30,7 +31,7 @@ main{
 /* header section */
 .header-section{
     padding: 30px 50px;
-    background-image: url('../images/donation1.jpg');
+    background-image: url('../images/donation9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -105,7 +106,8 @@ main{
 .donate-today-section h2{
     margin-bottom: 20px;
 }
-.donate-today-section p {
+.donate-today-section p,
+.plan-para {
     font-size: 20px;
     width: 662px;
     margin: 0 auto;
@@ -139,5 +141,71 @@ main{
 .donate-blog h2{
     font-size: 35px;
     font-weight: 700;
+}
 
+/* donation plan section */
+.donate-plan-section{
+    
+}
+.donate-plan-section h2{
+    margin-bottom: 40px;
+}
+
+.plan-items{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.first-color{
+    background: rgba(79, 157, 166, 0.1);
+}
+.second-color{
+    background: rgba(255, 89, 89, 0.1);
+}
+.third-color{
+    background: #e28d8d;
+}
+.plan-blog{
+    padding: 80px 30px;
+    border-radius: 5px;
+}
+.plan-blog .fa-solid {
+    font-size: 35px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: blue;
+}
+.plan-blog h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.plan-blog p {
+    font-size: 14px;
+    color: #707070;
+}
+
+/* depend section */
+.depend-section{}
+.depend-items{
+    display: flex;
+}
+.depent-txt{
+    width: 500px;
+}
+.depent-txt h2 {
+    font-size: 40px;
+}
+.depent-txt p {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+.depend-img {
+    margin-left: 20px;
+}
+.depend-img img {
+    width: 470px;
+    height: 500px;
+    border-radius: 8px;
 }
