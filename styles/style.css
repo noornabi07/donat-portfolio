@@ -65,6 +65,9 @@ main{
     font-size: 20px;
     color: #fff;
 }
+.header-nav ul li a:hover{
+    color: #FF5959;
+}
 /* dropdown navbar */
 .header-nav ul li ul{
     display: block;
@@ -112,7 +115,8 @@ main{
     width: 662px;
     margin: 0 auto;
     color: gray;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .donate-today-section h6 {
     font-size: 15px;
@@ -187,25 +191,67 @@ main{
 
 /* depend section */
 .depend-section{}
-.depend-items{
+.depend-items,
+.need-items{
     display: flex;
 }
-.depent-txt{
+.depent-txt,
+.need-txt{
     width: 500px;
 }
-.depent-txt h2 {
+.depent-txt h2,
+.need-txt h2 {
     font-size: 40px;
 }
-.depent-txt p {
+.depent-txt p,
+.need-txt p {
     font-size: 20px;
     color: grey;
     margin-top: 20px;
 }
 .depend-img {
-    margin-left: 20px;
+    margin-left: 50px;
 }
-.depend-img img {
+.depend-img img,
+.need-img img {
     width: 470px;
     height: 500px;
     border-radius: 8px;
+}
+.need-txt{
+    margin-left: 80px;
+}
+
+/* update section */
+.update-section{
+    text-align: center;
+}
+.email-inpt {
+    padding: 12px 20px;
+    background: #f1e6e6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.form-rap{
+    background-color: #f0e6c2;
+    padding: 100px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* footer */
+footer{
+    background-color: #000;
+    padding: 100px;
+    text-align: center;
+}
+footer h2{
+    color: #FF5959;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+footer h6{
+    color: #fff;
+    font-size: 16px;
 }
