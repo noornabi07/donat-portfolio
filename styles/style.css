@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* optional css */
+
+.same-btn{
+    background: #FF5959;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* header section */
+.header-section{
+    padding: 30px 50px;
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-icon{}
+.header-icon a{
+    text-decoration: none;
+}
+.header-icon a img{
+    width: 50px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.header-nav{}
+.header-nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-nav ul li{
+    position: relative;
+}
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 0px 17px;
+    font-size: 20px;
+    color: #fff;
+}
+/* dropdown navbar */
+.header-nav ul li ul{
+    display: block;
+    display: none;
+    padding-left: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 1s;
+}
+.header-nav ul li:hover ul{
+    display: block;
+
+}
+.header-nav ul li ul li{
+    padding: 5px 0px;
+}
+.banner{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.banner-content{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.banner-content h1 {
+    font-size: 56px;
+}
+.banner-content p {
+    color: #fff;
+    font-size: 20px;
+}
